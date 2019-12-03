@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.elhazent.education.kade4"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:6:5-66
+11-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:9:5-31:19
+14        android:allowBackup="true"
+14-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:10:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\elhazent\.gradle\caches\transforms-2\files-2.1\2c01b3fbd39209426854aced9f90c670\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:11:9-43
+18        android:label="@string/app_name"
+18-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:12:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:13:9-54
+20        android:supportsRtl="true"
+20-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:14:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme"
+22-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:15:9-40
+23        android:usesCleartextTraffic="true" >
+23-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:16:9-44
+24        <activity android:name="com.elhazent.education.kade4.ui.activity.search.Search" />
+24-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:18:9-63
+24-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:18:19-60
+25        <activity android:name="com.elhazent.education.kade4.ui.activity.detailmatch.DetailMatch" />
+25-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:19:9-73
+25-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:19:19-70
+26        <activity
+26-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:20:9-22:66
+27            android:name="com.elhazent.education.kade4.ui.activity.detailleague.DetailLeague"
+27-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:21:13-66
+28            android:theme="@style/Theme.AppCompat.NoActionBar" />
+28-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:22:13-63
+29        <activity
+29-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:23:9-30:20
+30            android:name="com.elhazent.education.kade4.ui.activity.main.MainActivity"
+30-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:23:19-64
+31            android:theme="@style/Theme.AppCompat.NoActionBar" >
+31-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:24:13-63
+32            <intent-filter>
+32-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:25:13-29:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:26:17-69
+33-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:26:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:28:17-77
+35-->F:\ICON\marketplace\KADE-4\app\src\main\AndroidManifest.xml:28:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\elhazent\.gradle\caches\transforms-2\files-2.1\3ac612c461e53e0481387097bbc91a8b\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+40            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+40-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\elhazent\.gradle\caches\transforms-2\files-2.1\3ac612c461e53e0481387097bbc91a8b\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+41            android:authorities="com.elhazent.education.kade4.lifecycle-process"
+41-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\elhazent\.gradle\caches\transforms-2\files-2.1\3ac612c461e53e0481387097bbc91a8b\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+42            android:exported="false"
+42-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\elhazent\.gradle\caches\transforms-2\files-2.1\3ac612c461e53e0481387097bbc91a8b\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+43            android:multiprocess="true" />
+43-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\elhazent\.gradle\caches\transforms-2\files-2.1\3ac612c461e53e0481387097bbc91a8b\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+44        <provider
+44-->[com.squareup.picasso:picasso:2.71828] C:\Users\elhazent\.gradle\caches\transforms-2\files-2.1\848382700eb1c6231e22cf6fe84d5a04\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+45            android:name="com.squareup.picasso.PicassoProvider"
+45-->[com.squareup.picasso:picasso:2.71828] C:\Users\elhazent\.gradle\caches\transforms-2\files-2.1\848382700eb1c6231e22cf6fe84d5a04\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+46            android:authorities="com.elhazent.education.kade4.com.squareup.picasso"
+46-->[com.squareup.picasso:picasso:2.71828] C:\Users\elhazent\.gradle\caches\transforms-2\files-2.1\848382700eb1c6231e22cf6fe84d5a04\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+47            android:exported="false" />
+47-->[com.squareup.picasso:picasso:2.71828] C:\Users\elhazent\.gradle\caches\transforms-2\files-2.1\848382700eb1c6231e22cf6fe84d5a04\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+48    </application>
+49
+50</manifest>

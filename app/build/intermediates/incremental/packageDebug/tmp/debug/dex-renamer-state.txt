@@ -1,0 +1,7 @@
+#Mon Dec 02 17:46:09 ICT 2019
+base.0=F\:\\ICON\\marketplace\\KADE-4\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=F\:\\ICON\\marketplace\\KADE-4\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
